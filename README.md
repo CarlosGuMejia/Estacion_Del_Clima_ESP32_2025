@@ -50,24 +50,40 @@ ADC interno → Voltaje de batería
 🔧 Código modular, fácil de extender y mantener
 
 #### 🧱 Hardware utilizado
+
 Componente	Descripción
+
 ESP32 Wrover Kit	MCU principal
+
 BMP280	Temperatura + presión
+
 SHT21	Temperatura + humedad
+
 Sensor de lluvia resistivo	Lectura análoga
+
 Sensor de humedad de suelo	Lectura análoga
+
 Fotoresistor (LDR)	Intensidad de luz
+
 Divisor resistivo	Medición del voltaje de batería
+
 Cables Dupont	Conexión
+
 Fuente 5V / Batería Lipo	Alimentación
 
 ##### 🧩 Conexión de pines
 Función	               Pin ESP32
+
 Sensor lluvia	             35
+
 Humedad suelo	             34
+
 Luz solar	                32
+
 Voltaje batería	          33
+
 I2C SDA (BMP280 + SHT21)	 21
+
 I2C SCL (BMP280 + SHT21)	 22
 
 Puedes encontrar el diagrama detallado en /docs/esquema_conexiones.png.
@@ -89,13 +105,21 @@ Y listo.
 ###### 📊 Ejemplo de lecturas
 
 ------ LECTURAS DE SENSORES ------
+
 Humedad Suelo: 41 %
+
 Lluvia: 12 %
+
 Luz Solar: 87 %
+
 BMP Temp: 27.30 °C
+
 BMP Presión: 899.5 hPa
+
 SHT Temp: 26.6 °C
+
 SHT Humedad: 40 %
+
 Voltaje Batería: 3.72 V
 -----------------------------------
 
