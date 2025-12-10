@@ -72,19 +72,19 @@ Cables Dupont	Conexión
 Fuente 5V / Batería Lipo	Alimentación
 
 ##### 🧩 Conexión de pines
-Función	               Pin ESP32
+Función-----------------Pin ESP32
 
-Sensor lluvia	             35
+Sensor lluvia---------------35
 
-Humedad suelo	             34
+Humedad suelo---------------34
 
-Luz solar	                32
+Luz solar-------------------32
 
-Voltaje batería	          33
+Voltaje batería-------------33
 
-I2C SDA (BMP280 + SHT21)	 21
+I2C SDA (BMP280 + SHT21)----21
 
-I2C SCL (BMP280 + SHT21)	 22
+I2C SCL (BMP280 + SHT21)----22
 
 Puedes encontrar el diagrama detallado en /docs/esquema_conexiones.png.
 
